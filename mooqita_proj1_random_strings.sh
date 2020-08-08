@@ -32,7 +32,7 @@ create_random_strings_to_file() {
 }
 
 sort_random_strings_file() {
-	sort -f ./random_strings_file -o ./random_strings_file  # Sorting with no importance to case. Out put to the same file
+	sort -f ./random_strings_file -o ./random_strings_file  # Sorting with no importance to case. Output to the same file
 	echo -e "\nSorted file:\n"
 	cat ./random_strings_file
 	return
