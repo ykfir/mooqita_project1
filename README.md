@@ -1,5 +1,6 @@
 # mooqita_project1
-Creating file with random strings, sorting it, eliminate all strings starting with 'A' or 'a' and input the remaining strings into a new file.
+
+Creating file with random strings, sorting it, remove all strings starting with 'A' or 'a' and input the remaining strings into a new file.
 
 1) Explain the process how you create the lines in your file ?
 
@@ -20,3 +21,5 @@ I used the 'sort' command while treating capital letter equal to lower case ones
 4) Remove all lines that start with an “a”, no matter if it is in uppercase or lowercase. Safe the result into a new file. Use regular expressions to do this. How many lines were removed?
 
 Since the generated strings are random it is impossible to predict how many strings start with ‘A’ or ‘a’ will be removed from the sorted file.
+
+5) OUTPUT: After download and run the script (mooqita_proj1_random_strings.sh) one can see that two files have been generated: sorted file that includes strings which start with A's ('A' or 'a') and another same, sorted file without the A's strings. Both files would be located at the same folder that one runs the script from. The output also will be visible at the terminal in addition to some interesting data about file existence, number of bites and number of strings that start with 'A' or 'a'. Enjoy!
